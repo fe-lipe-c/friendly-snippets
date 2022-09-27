@@ -84,7 +84,7 @@
         "description": "Insert an inline summation notation, (only in the cases when the environment is inline math environment)."
     },
     "Inline Math": {
-        "prefix": ["mathinline", "\\mathinline"],
+        "prefix": ["mathinline"],
         "body": [
             "$$1$$0"
         ],
