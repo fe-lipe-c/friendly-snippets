@@ -363,5 +363,26 @@
         "prefix": ["solution", "\\solution"],
         "body": ["\\textit{ Sol. }"],
         "description": "Insert italic 'Sol.'"
+    },
+    "Real Numbers": {
+        "prefix": ["realnumbers", "\\realnumbers"],
+        "body": [
+            "\\mathbb{R}$0"
+        ],
+        "description": "Inserts the set of the real numbers."
+    },
+    "Calligraphic Letter": {
+        "prefix": ["calmath", "\\calmath"],
+        "body": [
+            "\\mathcal{${1:letter}}$0"
+        ],
+        "description": "Inserts calligraphic letter."
+    },
+    "Set": {
+        "prefix": ["set", "\\set"],
+        "body": [
+            "\\left\\{${1:element}\\right\\}$0"
+        ],
+        "description": "Inserts set notation."
     }
 }
