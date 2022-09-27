@@ -42,6 +42,20 @@
       },
       {
         "language": [
+          "markdown",
+          "vimwiki"
+        ],
+        "path": "./snippets/latex/latex-snippets.json"
+      },
+      {
+        "language": [
+          "markdown",
+          "vimwiki"
+        ],
+        "path": "./snippets/latex/vscode-latex-snippets.json"
+      },
+      {
+        "language": [
           "plaintex",
           "tex"
         ],
