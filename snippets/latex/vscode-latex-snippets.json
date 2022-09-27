@@ -381,7 +381,7 @@
     "Set": {
         "prefix": ["set", "\\set"],
         "body": [
-            "\\left\\{${1:element}\\right\\}$0"
+            "\\{${1:element}\\}$0"
         ],
         "description": "Inserts set notation."
     }
