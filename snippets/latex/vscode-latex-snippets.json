@@ -136,14 +136,6 @@
         "body": "\\textbf{\\textit{$1}}$0",
         "description": "Insert bold italic text."
     },
-    "Itemize": {
-        "prefix": ["- ", "\\itemize", "itemize"],
-        "body": [
-            "\\begin{itemize}",
-            "\t\\item $1",
-            "\\end{itemize}$0"
-        ]
-    },
     "Up": {
         "prefix": ["to", "\\to"],
         "body": [
