@@ -137,9 +137,16 @@
         "description": "Insert bold italic text."
     },
     "Up": {
-        "prefix": ["to", "\\to"],
+        "prefix": ["to"],
         "body": [
             "^ {$1}$0"
+        ],
+        "description": "Superscript notation, as well as the power notation."
+    },
+    "Down": {
+        "prefix": ["under"],
+        "body": [
+            "_ {$1}$0"
         ],
         "description": "Superscript notation, as well as the power notation."
     },
