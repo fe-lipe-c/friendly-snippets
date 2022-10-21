@@ -405,7 +405,7 @@
   "Parentheses": {
       "prefix": ["parentheses"],
       "body": [
-          "({$1})$0"
+          "($1)$0"
       ],
       "description": "Parantheses."
   },
