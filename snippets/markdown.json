@@ -19,16 +19,6 @@
     "body": ["#### ${0}"],
     "description": "Add header level 4"
   },
-  "header 5": {
-    "prefix": "h5",
-    "body": ["##### ${0}"],
-    "description": "Add header level 5"
-  },
-  "header 6": {
-    "prefix": "h6",
-    "body": ["###### ${0}"],
-    "description": "Add header level 6"
-  },
   "Links": {
     "prefix": ["l", "link"],
     "body": ["[${1}](${2}) ${0}"],
@@ -50,17 +40,17 @@
     "description": "Insert strikethrough"
   },
   "Insert bold text": {
-    "prefix": ["bold", "b"],
+    "prefix": ["bold"],
     "body": "**${1}** $0",
     "description": "Insert bold text"
   },
   "Insert italic text": {
-    "prefix": ["i", "italic"],
+    "prefix": ["italic"],
     "body": "*${1}* $0",
     "description": "Insert italic text"
   },
   "Insert bold and italic text": {
-    "prefix": ["bold and italic", "bi"],
+    "prefix": ["bi"],
     "body": "***${1}*** $0",
     "description": "Insert bold and italic text"
   },
@@ -376,5 +366,133 @@
       "${0}"
     ],
     "description": "Insert table with 5 rows and 5 columns. First row is heading."
+  },
+  "Inline Summation": {
+     "prefix": ["suminline"],
+     "body": [
+         "\\sum_{$1}^{$2}$3"
+     ],
+     "description": "Insert an inline summation notation, (only in the cases when the environment is inline math environment)."
+  },
+  "Inline Math": {
+      "prefix": ["mathinline"],
+      "body": [
+          "$$1$$0"
+      ],
+      "description": "Insert inline Math Environment."
+  },
+  "Centered Math": {
+      "prefix": ["mathcentered"],
+      "body": [
+          "$$ $0 $$"
+      ],
+      "description": "Insert centered Math Environment."
+  },
+  "Up": {
+      "prefix": ["to"],
+      "body": [
+          "^{$1}$0"
+      ],
+      "description": "Superscript notation, as well as the power notation."
+  },
+  "Down": {
+      "prefix": ["under"],
+      "body": [
+          "_{$1}$0"
+      ],
+      "description": "Subscript notation."
+  },
+  "Parentheses": {
+      "prefix": ["parentheses"],
+      "body": [
+          "({$1})$0"
+      ],
+      "description": "Parantheses."
+  },
+  "Inline Integral": {
+      "prefix": ["integralinline"],
+      "body": [
+          "\\int_{$1}^{$2}$3"
+      ],
+      "description": "Insert inline integral notation, (only in the cases when the environment is inline math environment)."
+  },
+  "Inline Fraction": {
+      "prefix": ["fractioninline"],
+      "body": ["\\frac{$1}{$2}$0"],
+      "description": ["Insert inline fraction notation, (only in the cases when the environment is inline math environment)."]
+  },
+  "Real Numbers": {
+      "prefix": ["realnumbers"],
+      "body": [
+          "\\mathbb{R}$0"
+      ],
+      "description": "Inserts the set of the real numbers."
+  },
+  "Calligraphic Letter": {
+      "prefix": ["calmath"],
+      "body": [
+          "\\mathcal{${1:letter}}$0"
+      ],
+      "description": "Inserts calligraphic letter."
+  },
+  "Set": {
+      "prefix": ["set"],
+      "body": [
+          "\\left\\{${1:element} : $2 \\right\\\\}$0"
+      ],
+      "description": "Inserts set notation."
+  },
+  "Equation": {
+    "prefix": "equation",
+    "body": [
+      "$$",
+      "\\begin{equation}",
+      "\t$0",
+      "\\end{equation}",
+      "$$"
+    ],
+    "description": "Add a Equation"
+  },
+  "Equation*": {
+    "prefix": "equation*",
+    "body": [
+      "$$",
+      "\\begin{equation*}",
+      "\t$0",
+      "\\end{equation*}",
+      "$$"
+    ],
+    "description": "Add a Equation"
+  },
+  "Create Align* Environment in Text": {
+      "prefix": ["align*"],
+      "body": [
+				"$$",
+          "\\begin{align*}",
+          "\t$1",
+          "\\end{align*}$0",
+				"$$"
+      ],
+      "description": "Create an align environment when the context is in the text environment."
+  },
+  "Itemize": {
+    "prefix": "item",
+    "body": [
+      "$$",
+      "\\begin{itemize}",
+      "\t\\item $0",
+      "\\end{itemize}",
+      "$$"
+    ],
+    "description": "Itemize"
+  },
+  "Split": {
+    "prefix": "spl",
+    "body": [
+      "\\begin{split}",
+      "\t$0",
+      "\\end{split}"
+    ],
+    "description": "Split"
   }
 }
