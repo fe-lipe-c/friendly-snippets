@@ -7,38 +7,9 @@
     "snippets": [
       {
         "language": [
-          "plaintext",
-          "markdown",
-          "tex",
-          "html",
-          "global",
-          "all"
+          "markdown"
         ],
         "path": "./snippets/global.json"
-      },
-      {
-        "language": [
-          "gitcommit",
-          "NeogitCommitMessage"
-        ],
-        "path": "./snippets/gitcommit.json"
-      },
-      {
-        "language": [
-          "shellscript",
-          "shell",
-          "sh",
-          "zsh"
-        ],
-        "path": "./snippets/shell.json"
-      },
-      {
-        "language": [
-          "markdown",
-					"vimwiki",
-          "rmd"
-        ],
-        "path": "./snippets/markdown.json"
       },
       {
         "language": [
@@ -46,37 +17,6 @@
           "vimwiki"
         ],
         "path": "./snippets/markdown_custom.json"
-      },
-      {
-        "language": [
-          "plaintex",
-          "tex"
-        ],
-        "path": "./snippets/latex.json"
-      },
-      {
-        "language": [
-          "html",
-          "jade",
-          "pug",
-          "eruby"
-        ],
-        "path": "./snippets/html.json"
-      },
-      {
-        "language": "python",
-        "path": "./snippets/python/python.json"
-      },
-      {
-        "language": "python",
-        "path": "./snippets/python/unittest.json"
-      },
-      {
-        "language": [
-          "plaintex",
-          "tex"
-        ],
-        "path": "./snippets/latex/latex-snippets.json"
       }
     ]
   }
