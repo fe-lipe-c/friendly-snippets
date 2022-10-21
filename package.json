@@ -45,13 +45,6 @@
           "markdown",
           "vimwiki"
         ],
-        "path": "./snippets/latex/latex-snippets.json"
-      },
-      {
-        "language": [
-          "markdown",
-          "vimwiki"
-        ],
         "path": "./snippets/markdown_custom.json"
       },
       {
@@ -84,13 +77,6 @@
           "tex"
         ],
         "path": "./snippets/latex/latex-snippets.json"
-      },
-      {
-        "language": [
-          "plaintex",
-          "tex"
-        ],
-        "path": "./snippets/latex/vscode-latex-snippets.json"
       }
     ]
   }
