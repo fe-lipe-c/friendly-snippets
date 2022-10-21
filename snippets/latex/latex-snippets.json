@@ -47,28 +47,6 @@
     ],
     "description": "Display Math"
   },
-  "Equation": {
-    "prefix": "equation",
-    "body": [
-      "$$",
-      "\\begin{equation}",
-      "\t$0",
-      "\\end{equation}",
-      "$$"
-    ],
-    "description": "Add a Equation"
-  },
-  "Equation*": {
-    "prefix": "equation*",
-    "body": [
-      "$$",
-      "\\begin{equation*}",
-      "\t$0",
-      "\\end{equation*}",
-      "$$"
-    ],
-    "description": "Add a Equation"
-  },
   "Display Math — \\[ … \\]": {
     "prefix": "$$",
     "body": [
@@ -199,17 +177,6 @@
     ],
     "description": "Gather(ed)"
   },
-  "Itemize": {
-    "prefix": "item",
-    "body": [
-      "$$",
-      "\\begin{itemize}",
-      "\t\\item $0",
-      "\\end{itemize}",
-      "$$"
-    ],
-    "description": "Itemize"
-  },
   "Listing:Ref": {
     "prefix": "listing:ref",
     "body": [
@@ -264,15 +231,6 @@
       "${1:Section}~\\ref{sec:$2}$0"
     ],
     "description": "Section Reference"
-  },
-  "Split": {
-    "prefix": "spl",
-    "body": [
-      "\\begin{split}",
-      "\t$0",
-      "\\end{split}"
-    ],
-    "description": "Split"
   },
   "Section": {
     "prefix": "sec",

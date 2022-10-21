@@ -52,7 +52,7 @@
           "markdown",
           "vimwiki"
         ],
-        "path": "./snippets/latex/vscode-latex-snippets.json"
+        "path": "./snippets/markdown_custom.json"
       },
       {
         "language": [
