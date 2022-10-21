@@ -16,7 +16,14 @@
           "markdown",
           "vimwiki"
         ],
-        "path": "./snippets/markdown_custom.json"
+        "path": "./snippets/markdown/markdown_custom.json"
+      },
+      {
+        "language": [
+          "markdown",
+          "vimwiki"
+        ],
+        "path": "./snippets/markdown.json"
       }
     ]
   }
