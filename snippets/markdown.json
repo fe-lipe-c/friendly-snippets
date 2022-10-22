@@ -409,6 +409,20 @@
       ],
       "description": "Parantheses."
   },
+  "Brackets": {
+      "prefix": ["brackets"],
+      "body": [
+          "[$1]$0"
+      ],
+      "description": "Parantheses."
+  },
+  "Chevrons": {
+      "prefix": ["angle"],
+      "body": [
+          "\\langle $1 \\rangle $0"
+      ],
+      "description": "Parantheses."
+  },
   "Inline Integral": {
       "prefix": ["integralinline"],
       "body": [
@@ -421,10 +435,10 @@
       "body": ["\\frac{$1}{$2}$0"],
       "description": ["Insert inline fraction notation, (only in the cases when the environment is inline math environment)."]
   },
-  "Real Numbers": {
-      "prefix": ["realnumbers"],
+  "Spaces": {
+      "prefix": ["spaces"],
       "body": [
-          "\\mathbb{R}$0"
+          "\\mathbb{${1:letter}}$0"
       ],
       "description": "Inserts the set of the real numbers."
   },
