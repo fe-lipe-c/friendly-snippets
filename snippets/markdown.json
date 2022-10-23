@@ -409,6 +409,13 @@
       ],
       "description": "Parantheses."
   },
+  "Big Parentheses": {
+      "prefix": ["parenthesesbig"],
+      "body": [
+          "\\left($1\\right)$0"
+      ],
+      "description": "Big parantheses."
+  },
   "Brackets": {
       "prefix": ["brackets"],
       "body": [
@@ -416,31 +423,38 @@
       ],
       "description": "Parantheses."
   },
+  "Big Brackets": {
+      "prefix": ["bracketsbig"],
+      "body": [
+          "\\left[$1\\right]$0"
+      ],
+      "description": "Big brackets."
+  },
   "Chevrons": {
       "prefix": ["angle"],
       "body": [
           "\\langle $1 \\rangle$0"
       ],
-      "description": "Parantheses."
+      "description": "Angled brackets."
   },
   "Inline Integral": {
-      "prefix": ["integralinline"],
+      "prefix": ["integral"],
       "body": [
           "\\int_{$1}^{$2}$3"
       ],
-      "description": "Insert inline integral notation, (only in the cases when the environment is inline math environment)."
+      "description": "Insert integral notation."
   },
   "Inline Fraction": {
-      "prefix": ["fractioninline"],
+      "prefix": ["fraction"],
       "body": ["\\frac{$1}{$2}$0"],
-      "description": ["Insert inline fraction notation, (only in the cases when the environment is inline math environment)."]
+      "description": ["Insert inline fraction notation."]
   },
-  "Spaces": {
-      "prefix": ["spaces"],
+  "Blackboard Bold": {
+      "prefix": ["bbmath"],
       "body": [
           "\\mathbb{${1:letter}}$0"
       ],
-      "description": "Inserts the set of the real numbers."
+      "description": "Inserts blackboard bold letter."
   },
   "Calligraphic Letter": {
       "prefix": ["calmath"],
