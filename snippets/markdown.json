@@ -523,11 +523,18 @@
     ],
     "description": "Split"
   },
-  "a": {
-      "prefix": ["a"],
+  "one": {
+      "prefix": ["いち一"],
       "body": [
-          "あ"
+          "一"
       ],
-      "description": "a"
+      "description": "いち, ひとつ"
+  },
+  "one": {
+      "prefix": ["ひとつ一"],
+      "body": [
+          "一"
+      ],
+      "description": "いち, ひとつ"
   }
 }
