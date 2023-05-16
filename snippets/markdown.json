@@ -523,11 +523,11 @@
     ],
     "description": "Split"
   },
-  "theta": {
-      "prefix": ["theta"],
+  "a": {
+      "prefix": ["a"],
       "body": [
-          "\\theta"
+          "あ"
       ],
-      "description": "Inserts calligraphic letter."
+      "description": "a"
   }
 }
