@@ -524,14 +524,14 @@
     "description": "Split"
   },
   "one": {
-      "prefix": ["いち一"],
+      "prefix": ["ichi一"],
       "body": [
           "一"
       ],
       "description": "いち, ひとつ"
   },
   "one": {
-      "prefix": ["ひとつ一"],
+      "prefix": ["hitotsu"],
       "body": [
           "一"
       ],
